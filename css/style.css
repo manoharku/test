@@ -1,0 +1,149 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+.navigation{
+   padding-left: 50px;
+}
+.navigation .navbar{
+    font-weight:bold;
+}
+.section2{
+	background: rgb(255,255,255);
+	padding:20px 0px;
+}
+.section2 h1{
+    text-align:center;
+    color:#48639E;
+    padding-top:10px
+}
+.section2 p{
+    text-align:center;
+	padding-bottom:0px;
+	font-weight: 500;
+	font-size:17px;
+}
+.our-team-main
+{
+	width:100%;
+	height:auto;
+	border-bottom:5px #323233 solid;
+	background:#fff;
+	text-align:center;
+	border-radius:10px;
+	overflow:hidden;
+	position:relative;
+	transition:0.5s;
+	margin-bottom:28px;
+}
+.our-team-main img
+{
+	border-radius:50%;
+	margin-bottom:20px;
+	width: 90px;
+}
+
+.our-team-main h3
+{
+	font-size:20px;
+	font-weight:700;
+}
+
+.our-team-main p
+{
+	margin-bottom:0;
+}
+
+.team-back
+{
+	width:100%;
+	height:auto;
+	position:absolute;
+	top:0;
+	left:0;
+	padding:5px 15px 0 15px;
+	text-align:left;
+	background:#fff;
+	
+}
+
+.team-front
+{
+	width:100%;
+	height:auto;
+	position:relative;
+	z-index:10;
+	background:linear-gradient(45deg,red,yellow);
+	padding:15px;
+	bottom:0px;
+	transition: all 0.5s ease;
+}
+
+.our-team-main:hover .team-front
+{
+	bottom:-200px;
+	transition: all 0.8s ease;
+}
+
+.our-team-main:hover
+{
+	border-color:#777;
+	transition:0.5s;
+}
+/* Applying Animation */
+.service-section {
+	margin: 20px 0;
+	position: relative;
+	overflow: hidden;
+}
+.wow_imgage {
+	position: relative;
+	float: left;
+	margin: 0 20px 20px 0;
+	width: 270px;
+	height: 180px;
+}
+.section3{
+	padding:20px 0px 20px 0px;
+    background: #f4f4f4;
+}
+.section3 h1{
+    text-align:center;
+    color:#48639E;
+    padding-top:10px
+}
+.section3 p{
+    text-align:center;
+	font-weight: 500;
+	font-size:17px;
+}
+.section3 .row ul{
+    list-style:none;
+    margin:0% 35%;
+}
+.section3 .row ul li a{
+    float:left;
+    text-decoration:none;
+    color:#fff;
+    background: rgb(25,25,25);
+    padding:10px 25px;
+    border-top-left-radius:20px;
+    border-bottom-left-radius:20px;
+    opacity:0.95;
+}
+.section3 .row ul li:last-child a{
+    background: rgb(255,255,255);
+    color: rgb(15,15,15);
+    border-top-left-radius:0px;
+    border-bottom-left-radius:0px;
+    border-top-right-radius:20px;
+    border-bottom-right-radius:20px;
+}
+.section3 .row ul li:hover a{
+    opacity:1;
+}
+@media screen and (max-width:900px){
+	.navigation{
+		padding-left:0px;
+	}
+}
